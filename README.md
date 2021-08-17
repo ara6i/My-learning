@@ -5,16 +5,25 @@ My overall learning
     <head>
         <title>Arash</title>
     </head>
-    <body>
-    <h1 style="font: size 100px;">Salam be hamegi</h1>
+    <style>
+        h1{
+            border: 10px solid black;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <body >
+    <h1>Salam be hamegi</h1>
     <h3> avalin poroje :D</h3>
-    <img  width="235" height="280"src="Arash.jpg" alt="ara6i"><br><br>  
+    <img width="235" height="280"src="Arash.jpg" alt="ara6i"><br><br> <hr> 
     <input type="radio" name="gender" id="male"/>
     <label for="male">male</label>
     <input type="radio" name="gender" id="female"/>
     <label for="female">female</label>
-    <br>
+    <hr>
+    
     
 </body>
 </html>
+
 
