@@ -3,14 +3,15 @@ My overall learning
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Arash</title>
-    </head>
-    <style>
+        <title>Arash</title> 
+         <style>
         h1{
             border: 10px solid black;
             text-align: center;
         }
     </style>
+    </head>
+  
     <link rel="stylesheet" href="styles.css">
     <body >
     <h1>Salam be hamegi</h1>
