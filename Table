@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, td, th{
+        background-color: burlywood;
+        border: 5px solid black;
+        border-collapse: collapse;
+        padding: 20px;}
+        td,th{
+          text-align: center;
+          background-color: darkolivegreen;
+          
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%;">
+      <tr>
+        <th>names</th>
+      <th>Arash</th>
+      <th>Mamad</th>
+      <th>hamed</th>
+    </tr>
+    <tr>
+     <td>number</td>
+     <td>555</td>
+     <td>333</td>
+     <td>444</td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td>24</td>
+      <td>24</td>
+      <td>22</td>
+    </tr>
+      
+    </table>
+  </body>
+</html>
