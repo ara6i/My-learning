@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>My First Java Script</h1>
+    <p>JavaScript can change the content of an HTML element:</p>
+    <p id="demo">this is bla bla bla</p>
+    <button type="button" onclick="myfunction()">click me</button>
+    <script>
+      function myfunction() {
+        document.getElementById("demo").innerHTML="Hellloooo";
+      }
+    </script>
+  </body>
+</html>
