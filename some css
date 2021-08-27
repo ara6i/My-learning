@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Css.css">
+<body>
+   <div>
+        <h1>Forming pannel</h1>
+    <input type="checkbox" id="male" name="gender" value=""><br><br>
+    <label for="male">male</label>
+    <input type="checkbox" id="fmale" name="gender" value=""><br><br>
+    <label for="fmale">female</label>
+    <input type="checkbox" id="other" name="gender" value=""><br><br>
+    <label for="other">other</label>
+
+    </div>
+
+    
+    
+
+    
+</body>
+</html>
