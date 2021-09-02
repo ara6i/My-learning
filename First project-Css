@@ -1,0 +1,88 @@
+* {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      :root {
+        --primary-color: hsl(245, 75%, 52%);
+        --background-color: hsl(225, 100%, 94%);
+      
+        --pale-blue: hsl(225, 100%, 98%);
+        --dark-blue: hsl(224, 23%, 55%);
+        --desaturated-blue: hsl(223, 47%, 23%);
+      
+        --white: hsl(360, 100%, 100%);
+      }
+
+        body{
+
+        background: url("images/pattern-background-desktop.svg") top/contain
+    no-repeat;
+    background-color: var(--background-color);
+      }
+      p {
+        font-size: 16px;
+        color: var(--dark-blue);
+      }
+
+.main-box{
+        margin-left: auto; margin-right: auto; margin-top: 10vh; margin-bottom: 10vh;
+        padding: auto;
+        width: 375px;
+}
+.text-box{
+        padding: 1rem;
+        background-color: white;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        
+}
+.top-card img{
+        width: 100%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.card-title{
+        text-align: center;
+        margin-left:auto ;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+}
+.explain{
+        color: var(--dark-blue);
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px;
+        font-size: 16px
+}
+.card-container{
+        width: 90%;
+        background-color: var(--pale-blue);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+}
+.card-name{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+}
+.name{
+        font-size: 1rem;
+        font-family: "Red Hat Display", sans-serif;
+}
+.card-name-money{
+        padding-left: 10px;
+}
+.card-link{
+        font-size: 20px;
+        color: var(--primary-color);
+}
